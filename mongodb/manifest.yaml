@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: deployment
+kind: Deployment
 metadata:
   name: mongodb
   Namespace: roboshop
@@ -51,7 +51,7 @@ spec:
   ports:
    - protocol: TCP
      port: 27017
-     targetport: 27017
+     targetPort: 27017
 
 
 
