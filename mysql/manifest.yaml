@@ -9,7 +9,7 @@ data:
     innodb_redo_log_capacity = 2G
 
 ---
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql
