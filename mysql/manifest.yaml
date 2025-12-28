@@ -52,14 +52,14 @@ spec:
         #   periodSeconds: 10
       volumes:
         - name: mysql-config
-          ConfigMap:
+          configMap:
             name: mysql
 ---
 
 apiVersion: v1
 kind: Service
 metadata: 
-  name: reids
+  name: mysql
   namespace: roboshop
 spec:
   selector:
