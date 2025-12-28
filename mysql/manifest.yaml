@@ -50,10 +50,10 @@ spec:
         #     port: 3306
         #   initialDelaySeconds: 10
         #   periodSeconds: 10
-    volumes:
-      - name: mysql-config
-        ConfigMap:
-          name: mysql
+      volumes:
+        - name: mysql-config
+          ConfigMap:
+            name: mysql
 ---
 
 apiVersion: v1
